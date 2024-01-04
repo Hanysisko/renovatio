@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Oranienbaum', serif;;
 }
 
 .App-logo {
@@ -35,4 +36,96 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Menu h1{
+  display: inline-flex;
+  padding: 0 50px;
+}
+
+.Menu p{
+  display: inline-flex;
+  padding: 0 50px;
+}
+
+.HeaderMain{
+  display: flex;
+  justify-content: space-between;
+}
+
+.ImageMeble{
+  background-image: url(./img/meble1.jpg);
+}
+
+.HeaderText{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.HeaderText h1{
+  font-size: 60px;
+}
+
+.HeaderText p{
+  font-size: 30px;
+}
+
+.Button1{
+  border: 3px solid rgba(40,40,40);
+  color: rgba(225,225,225);
+  background-color:#6D5B4A;
+  font-size: 1.5em;
+  width: 10em;
+  height: 1.5em
+}
+.Button1:hover{
+  color: rgba(40,40,40);
+  background-color:#af8053;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+.Pricing{
+  background: #C4C4C4;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.Pricing>*{
+  padding: 10px;
+  justify-content: left;
+  text-align: left;
+}
+
+
+
+
+
+
+.Footer{
+  background: #4B3B2B;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.FooterLeft{
+  padding: 20px;
+}
+
+.FooterRight{
+  padding: 20px;
 }
