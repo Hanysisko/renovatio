@@ -92,6 +92,62 @@
 }
 
 
+.MiddleMain1{
+  display: flex;
+  text-align: left;
+}
+
+.MiddleMain1 .Section1 {
+  margin: 50px;
+}
+
+.MiddleMain1 .Section2 {
+  height: 150px;
+}
+
+.MiddleMain1 .Section2 img{
+  max-height: 200px;
+}
+
+
+.MiddleMain2{
+  background-color:#F1E8E0;
+  display: flex;
+}
+.MiddleMain2 .Section1 {
+  height: 600px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MiddleMain2 .Section1 img{
+  max-height: 450px;
+  margin: 10px;
+}
+
+.MiddleMain2 .Section2 {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+}
+
+.MiddleMain2 .Section2 .Paragraph1 {
+  margin-top: 30px;
+}
+
+.MiddleMain2 .Section2 .Paragraph2 {
+  margin-top: 30px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -101,11 +157,15 @@
   background: #C4C4C4;
   display: flex;
   flex-direction: column;
-  align-items: baseline;
+  padding: 30px;
+}
+
+.Pricing p2{
+  font-size: 25px;
+  padding: 25px 50px;
 }
 
 .Pricing>*{
-  padding: 10px;
   justify-content: left;
   text-align: left;
 }

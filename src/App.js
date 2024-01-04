@@ -27,12 +27,55 @@ function App() {
         </div>
       </div>
 
-      <div className="MiddleMain">
-
+      <div className="MiddleMain1">
+        <div className="Section1">
+          <h1>Kilka słów o nas</h1>
+          <p>Renowacją mebli zajmujemy się od ponad 30 lat, jednak doświadczenie pracy w drewnie zaczyna się już
+              dużo wcześniej i przechodzi z pokolenia na pokolenie, od dziadka po ojca i synów.</p>
+        </div>
+        <div className="Section2">
+          <img src={stolikImage} alt="StolikImage"></img>
+        </div>
       </div>
 
-      <div className="Gallery">
+      <div className="MiddleMain2">
+        <div className="Section1">
+          <img src={zegarImage} alt="ZegarImage"></img>
+        </div>
+        <div className="Section2">
+          <div className="Paragraph1">
+            <h1>Czym się zajmujemy?</h1>
+            <p>
+              <ul>
+                <li>kompleksową renowacją mebli,</li>
+                <li>kompleksową renowacją mebli,renowacją zabytkowych przedmiotów,</li>
+                <li>renowacją stolarki budowlanej (drzwi, schody, okna itp.),</li>
+                <li>renowacja architektury sakralnej (konfesjonały, ambony, figury, krzyże, ołtarze),</li>
+              </ul>
+            </p>
+            <p2>Zlecenia realizujemy dla osób prywatnych, sklepów, firm oraz instytucji publicznych.</p2>
+          </div>
+          <div className="Paragraph2">
+            <h1>Nasze podejście do odnawiania </h1>
+            <p>Renowację mebli przeprowadzana jest starymi metodami (szelak, politura, wosk). Meble są
+odrobaczane, czyszczone i uzupełniane są wszelkiego rodzaju ubytki i rzeźby, a następnie nakładana
+jest odpowiednia warstwa zabezpieczająca.</p>
+            <p>Do każdej renowacji podchodzimy indywidualnie z rzetelną
+uwagą i zaangażowaniem, stosując odpowiednią technologię oraz dopasowane materiały, przywracając
+pierwotny wygląd, charakter i funkcjonalność, tak aby mogli Państwo cieszyć się użytkowaniem przez
+następne dłuuugie lata. </p>
+          </div>
+        </div>
+      </div>
 
+
+
+
+
+
+
+      <div className="Gallery">
+        <h1>GALERIA WIP</h1>
       </div>
 
       <div className="Pricing">
@@ -46,6 +89,7 @@ function App() {
             <li>telefonicznie, m.in. przy użyciu wiadomości MMS</li>
           </ul>
         </p>
+        <p2>Oferujemy transport mebli od i do klienta. Zapewniamy odpowiednie zabezpieczenie, tak aby meble nieuległy uszkodzeniu.</p2>
       </div>
 
       <div className="Contact">
