@@ -1,6 +1,6 @@
 {
+  "homepage": "https://hanysisko.github.io/renovatio",
   "name": "renovatio",
-  "homepage": "https://hanysisko.github.io/renovatio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
