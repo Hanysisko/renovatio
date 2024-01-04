@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/renovatio/static/css/main.f855e6bc.css",
-    "main.js": "/renovatio/static/js/main.8bc26192.js",
+    "main.css": "/renovatio/static/css/main.954eb7df.css",
+    "main.js": "/renovatio/static/js/main.f0f62983.js",
     "static/js/787.000b58a0.chunk.js": "/renovatio/static/js/787.000b58a0.chunk.js",
-    "static/media/logo.svg": "/renovatio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Zegar.png": "/renovatio/static/media/Zegar.fd0e0f3d1191ab661250.png",
+    "static/media/Stolik.png": "/renovatio/static/media/Stolik.94927c357343ab26fe4d.png",
+    "static/media/meble1.jpg": "/renovatio/static/media/meble1.d76bd69b7d3d42d41e83.jpg",
+    "static/media/mapagoogle.png": "/renovatio/static/media/mapagoogle.704bb15bdfb235e8559e.png",
     "index.html": "/renovatio/index.html",
-    "main.f855e6bc.css.map": "/renovatio/static/css/main.f855e6bc.css.map",
-    "main.8bc26192.js.map": "/renovatio/static/js/main.8bc26192.js.map",
+    "main.954eb7df.css.map": "/renovatio/static/css/main.954eb7df.css.map",
+    "main.f0f62983.js.map": "/renovatio/static/js/main.f0f62983.js.map",
     "787.000b58a0.chunk.js.map": "/renovatio/static/js/787.000b58a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.8bc26192.js"
+    "static/css/main.954eb7df.css",
+    "static/js/main.f0f62983.js"
   ]
 }
